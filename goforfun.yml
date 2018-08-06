@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  goforfun:
+    lang: go
+    handler: ./goforfun
+    image: martindekov/goforfun
